@@ -4,12 +4,12 @@
   <div>
     <%= f.label :allow_create_artists %><br>
     True: <%= f.radio_button :allow_create_artists, true %>
-    False: <%+ f.radio_button :allow_create_artists, false %>
+    False: <%= f.radio_button :allow_create_artists, false %>
   </div>
   <div>
     <%= f.label :allow_create_songs %><br>
     True: <%= f.radio_button :allow_create_songs, true %>
-    False: <%= f.radio_button :allow_create_artists, false %>
+    False: <%= f.radio_button :allow_create_songs, false %>
   </div>
   <div>
     <%= f.label :song_sort_order %><br>
